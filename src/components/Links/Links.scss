@@ -1,0 +1,46 @@
+@use '../../styles/partials/font' as *;
+@use '../../styles/partials/mixin' as *;
+@use '../../styles/partials/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    padding-top: 9rem;
+    &__container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    &__share-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    &__button {
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "AvenirNext LT Pro Bold";
+        font-size: 2rem;
+        color: white;
+        border: 5px solid white;
+        border-radius: 1rem;
+        cursor: pointer;
+        &:hover {
+            color: rgb(109, 109, 231);
+            background-color: white;
+            border: 5px solid rgb(109, 109, 231);
+            transform: scale(1.6,1.6);
+            transition: 200ms;
+            animation: border-radius 1s infinite alternate;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}

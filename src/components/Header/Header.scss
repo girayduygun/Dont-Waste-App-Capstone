@@ -1,0 +1,60 @@
+@use '../../styles/partials/font' as *;
+@use '../../styles/partials/mixin' as *;
+@use '../../styles/partials/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-image: linear-gradient(to bottom right,#03A3E1, #9EB42C);
+    &__welcome-text {
+        margin: 0 1.5rem;
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: rgb(109, 109, 231);
+        border-radius: 1rem;
+        border: 1px solid white;
+        font-family: "AvenirNext LT Pro Bold";
+        font-size: 1rem;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    &__logo-image {
+        width: 20rem;
+        border-radius: 0.5rem;
+        &:hover {
+            transform: scale(1.25,1.25);
+            transition: 200ms;
+        }
+    }
+    &__navbar {
+        display: flex;
+        padding: 0 1rem;
+    }
+    &__navbar-link {
+        margin: 0 1.5rem;
+        padding: 0 1rem;
+        color: white;
+        background-color: rgb(109, 109, 231);
+        border-radius: 1rem;
+        border: 1px solid white;
+        font-family: "AvenirNext LT Pro Bold";
+        font-size: 1rem;
+        &:hover {
+            color: rgb(109, 109, 231);
+            background-color: white;
+            border: 1px solid rgb(109, 109, 231);
+            transform: scale(1.25,1.25);
+            transition: 200ms;
+        }
+    }
+    &__navbar-button {
+        padding: 0.5rem 1rem;
+    }
+}

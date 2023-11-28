@@ -1,0 +1,65 @@
+@use '../../styles/partials/font' as *;
+@use '../../styles/partials/mixin' as *;
+@use '../../styles/partials/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    &__container {
+        width: 30%;
+        padding: 1rem;
+        border: 5px solid white;
+        border-radius: 1rem;
+        margin-top: 2rem;
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin: 0 0 1rem 0;
+        font-family: "AvenirNext LT Pro Bold";
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        background-color: rgb(109, 109, 231);
+        border-radius: 1rem;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        font-family: "AvenirNext LT Pro Bold";
+        color: white;
+        background-color: rgb(109, 109, 231);
+        border-radius: 1rem;
+    }
+    &__form-text {
+        margin: 1rem;
+        margin-top: 0;
+        font-family: "AvenirNext LT Pro Bold";
+    }
+    &__form-title {
+        margin: 1rem 1rem 0.5rem 1rem;
+        font-family: "AvenirNext LT Pro Bold";
+    }
+    &__form-button {
+        width: 50%;
+        margin: 1rem;
+        margin-left: 7.5rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        color: rgb(109, 109, 231);
+        background-color: white;
+        border-radius: 1rem;
+        border: 1px solid white;
+        font-family: "AvenirNext LT Pro Bold";
+        font-size: 1.5rem;
+        &:hover {
+            transform: scale(1.25,1.25);
+            transition: 200ms;
+        }
+    }
+}
