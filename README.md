@@ -25,6 +25,7 @@ HOW TO USE DON'T WASTE APP
 * After sign up, users have to login. Login Button
 * When users click share button, all users can write details of product and address in Share page.
 * When users click find button, all users can see all post and details of product and address in Find page.
+  
 
 # Getting Started with Create React App
 
