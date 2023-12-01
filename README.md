@@ -20,6 +20,12 @@ INSTRUCTIONS TO RUN APP
 * Each user can delete only his own posts.
 * Users can not delete others posts.
 
+HOW TO USE DON'T WASTE APP
+* All users have to sign up to share a post. Sign up Button
+* After sign up, users have to login. Login Button
+* When users click share button, all users can write details of product and address in Share page.
+* When users click find button, all users can see all post and details of product and address in Find page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
